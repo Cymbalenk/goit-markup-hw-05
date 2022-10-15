@@ -297,13 +297,14 @@ width: 100%;
   position: absolute;
 width:528px ;
 height:581px ;
-top: 221px;
-left:536px;
+top: 50%;
+left:50%;
 
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 1px 1px rgba(0, 0, 0, 0.14),
-     0px 2px 1px rgba(0, 0, 0, 0.2);
-     border-radius: 4px;
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+ 0px 1px 1px rgba(0, 0, 0, 0.14),
+ 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+
 z-index: 2;
 
   background:var(--three-text-color);
@@ -439,13 +440,6 @@ padding-bottom: 94px;
 display: block;
 max-width: 100%;
 height: auto;
-
-transform: rotateY(0);
-transition: transform 500ms linear;
- }
-
- .work-link img:hover {
-  transform: rotateY(180deg);
  }
 
 .work-link {
